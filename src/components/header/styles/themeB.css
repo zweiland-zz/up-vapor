@@ -1,0 +1,6 @@
+/* themeB.css */
+@import "../../../themes/themeB.css";
+
+.header {
+  background: #26ce61;
+}

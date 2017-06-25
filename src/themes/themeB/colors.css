@@ -1,0 +1,13 @@
+/* colors.css */
+
+/* text color */
+.text, .text-black    { color: black; }
+.text-white           { color: white; }
+.text-brand-primary   { color: red; }
+.text-brand-secondary { color: #777; }
+.text-red             { color: red; }
+.text-green           { color: #26ce61; }
+
+/* background color */
+.bg-white { background-color: white; }
+.bg-green { background-color: #26ce61; }

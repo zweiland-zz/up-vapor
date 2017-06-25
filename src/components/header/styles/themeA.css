@@ -1,0 +1,6 @@
+/* themeA.css */
+@import "../../../themes/themeA.css";
+
+.header {
+  background: blue;
+}

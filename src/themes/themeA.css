@@ -1,0 +1,9 @@
+/* Theme A Base */
+
+body, html {
+  /* font-family: 'Open Sans'; */
+}
+
+.variableA {
+  background: red;
+}

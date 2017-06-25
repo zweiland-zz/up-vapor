@@ -1,0 +1,11 @@
+/* themeB.css */
+@import "../../../themes/themeB.css";
+
+.logo {
+  background: #26ce61;
+  font-family: 'Franklin Gothic';
+}
+.brandName {
+  color: white;
+  text-transform: capitalize;
+}

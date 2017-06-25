@@ -1,0 +1,16 @@
+@import "./base/colors.css";
+
+body, html {
+  background: #f5f5f5;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.app {
+}
+
+.intro {
+  font-size: large;
+  text-align: center;
+}

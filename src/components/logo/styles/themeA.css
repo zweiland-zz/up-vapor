@@ -1,0 +1,10 @@
+/* themeA.css */
+@import "../../../themes/themeA.css";
+
+.logo {
+  background: white;
+  font-family: 'Open Sans';
+}
+.brandName {
+  color: blue;
+}

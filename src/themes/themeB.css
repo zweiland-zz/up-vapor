@@ -1,0 +1,9 @@
+/* Theme B Base */
+
+body, html {
+  /* font-family: 'Open Sans'; */
+}
+
+.variableB {
+  background: green;
+}

@@ -1,0 +1,7 @@
+/* base.css */
+@import "../../../themes/base.css";
+
+.header {
+  background: white;
+  height: 80px;
+}
