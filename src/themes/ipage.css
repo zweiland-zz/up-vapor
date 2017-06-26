@@ -4,6 +4,21 @@ body, html {
   font-family: 'Franklin Gothic';
 }
 
-.variableB {
-  background: green;
+/* Links */
+a {
+  color: #26ce61;
+}
+
+
+/* Buttons */
+.btn-default {
+  color: white;
+  background-color: #26ce61;
+  border-color: #26ce61;
+}
+
+
+/* Navigation */
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+  background-color: #26ce61;
 }

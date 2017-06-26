@@ -1,9 +1,18 @@
-/* Theme A Base */
+/* Bluehost Base */
 
 body, html {
   font-family: 'Open Sans';
 }
 
-.variableA {
-  background: red;
+/* Links */
+a {
+  color: #3575d3;
+}
+
+
+/* Buttons */
+.btn-default {
+  color: white;
+  background-color: #3575d3;
+  border-color: #3575d3;
 }

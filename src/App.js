@@ -15,6 +15,7 @@ import Panel from "./components/panel";
 class App extends Component {
   render(props) {
     console.log(process.env);
+    const BRAND = process.env.UP_UI_THEME;
     return (
       <AppWrap>
         <PageWrap>
@@ -23,7 +24,7 @@ class App extends Component {
           <MainContent>
             <div className="page-content">
               <div className="container-fluid">
-                <Ad />
+                {BRAND === 'base' || BRAND === 'ipage' && <Ad />}
                 <div className="row">
                   <Filters />
                   <div className="col-md-6">
