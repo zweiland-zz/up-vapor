@@ -24,7 +24,7 @@ class App extends Component {
           <MainContent>
             <div className="page-content">
               <div className="container-fluid">
-                {BRAND === 'base' || BRAND === 'ipage' && <Ad />}
+                {(BRAND === 'base' || BRAND === 'ipage') && <Ad />}
                 <div className="row">
                   <Filters />
                   <div className="col-md-6">
