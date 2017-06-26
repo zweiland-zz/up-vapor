@@ -2,5 +2,7 @@
 @import "../../../themes/themeA.css";
 
 .header {
-  background: blue;
+  background: white;
+  border-bottom: 1px solid #dce0e6;
+  height: 75px;
 }

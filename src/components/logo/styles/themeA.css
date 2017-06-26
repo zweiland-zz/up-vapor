@@ -4,6 +4,9 @@
 .logo {
   background: white;
   font-family: 'Open Sans';
+  height: auto;
+  height: 75px;
+  line-height: 40px;
 }
 .brandName {
   color: blue;

@@ -4,9 +4,6 @@
 .logo {
   float: left;
   margin: 8px 0 8px 40px;
-  width: 200px;
-  height: 64px;
-  line-height: 64px;
   composes: bg-white from "../../../themes/base/colors.css";
 }
 
