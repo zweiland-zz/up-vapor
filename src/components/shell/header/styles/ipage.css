@@ -4,3 +4,11 @@
 .header {
   background: #26ce61;
 }
+
+.header a {
+  color: white;
+}
+
+.header .navbar-nav {
+  float: right;
+}

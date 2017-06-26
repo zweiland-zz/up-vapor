@@ -9,7 +9,7 @@ export default class Logo extends Component {
     return (
       <div className={baseStyles.logo + " " + theme.logo}>
         {BRAND === 'base' &&
-        <text>Brand Name</text>
+        <a href="/">Brand Name</a>
         }
         {BRAND === 'bluehost' &&
           <img src="/images/bluehost-logo.svg" alt="Bluehost Logo" />

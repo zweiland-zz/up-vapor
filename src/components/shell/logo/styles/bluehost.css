@@ -2,12 +2,8 @@
 @import "../../../../themes/bluehost.css";
 
 .logo {
-  background: white;
-  font-family: 'Open Sans';
+  background: transparent;
   height: auto;
-  height: 75px;
   line-height: 40px;
-}
-.brandName {
-  color: blue;
+  margin-left: 0;
 }
