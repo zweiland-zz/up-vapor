@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import baseStyles from './themes/base.css';
 
 import Header from "./components/header";
+import Sidebar from "./components/shell/sidebar";
 
 class App extends Component {
   render(props) {
@@ -11,8 +12,7 @@ class App extends Component {
        <div class={baseStyles.wrapper}>
           <Header />
           <div className={baseStyles.pageContentWrapper}>
-             <div className={baseStyles.sidebarWrapper}>
-             </div>
+             <Sidebar />
              <div id="page-content-wrapper">
                 <div className="page-content">
                    <div className="container-fluid">
