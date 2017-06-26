@@ -4,6 +4,7 @@ import App from './App';
 import registerServiceWorker from './registerServiceWorker';
 
 // Styles
+import '../node_modules/bootstrap/dist/css/bootstrap.css';
 import './themes/base.css';
 
 ReactDOM.render(

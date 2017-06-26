@@ -8,10 +8,18 @@ class App extends Component {
     console.log(process.env);
     return (
       <div className={baseStyles.app}>
-        <Header />
-        <p className={baseStyles.intro}>
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+        <div class={baseStyles.wrapper}>
+          <div className={baseStyles.app}>
+            <Header />
+
+            <div className={baseStyles.sidebarWrapper}>
+            </div>
+
+            <p className={baseStyles.intro}>
+              To get started, edit <code>src/App.js</code> and save to reload.
+            </p>
+          </div>
+        </div>
       </div>
     );
   }

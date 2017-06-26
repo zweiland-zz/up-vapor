@@ -8,25 +8,15 @@ export default class Logo extends Component {
     const BRAND = process.env.UP_UI_THEME;
     return (
       <div className={baseStyles.logo + " " + theme.logo}>
-        <div className={baseStyles.brandName + " " + theme.brandName}>
-
           {BRAND === 'base' &&
-          <div>
-            Brand Name
-          </div>
+          <text>Brand Name</text>
           }
-          {BRAND === 'themeA' &&
-          <div>
+          {BRAND === 'bluehost' &&
             <img src="/images/bluehost-logo.svg" alt="Bluehost Logo" />
-          </div>
           }
-          {BRAND === 'themeB' &&
-          <div>
+          {BRAND === 'ipage' &&
             <img src="/images/ipage-logo.svg" alt="iPage Logo" />
-          </div>
           }
-
-        </div>
       </div>
     )
   }
