@@ -10,7 +10,7 @@ export default class Header extends Component {
   render(props) {
     var { theme } = this.props;
     return (
-      <nav className={"navbar navbar-inverse navbar-fixed-top " + baseStyles.header + " " + theme.header}>
+      <nav className={baseStyles.header + " " + theme.header}>
         <div className="container-fluid">
           <div className={"navbar-header"}>
             <div className="navbar-brand home-link">

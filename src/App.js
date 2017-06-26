@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
-import baseStyles from './themes/base.css';
 
 // Shell
+import AppWrap from "./components/shell/appWrap";
+import PageWrap from "./components/shell/pageWrap";
 import Header from "./components/shell/header";
 import Sidebar from "./components/shell/sidebar";
 import MainContent from "./components/shell/mainContent";
@@ -15,8 +16,8 @@ class App extends Component {
   render(props) {
     console.log(process.env);
     return (
-      <div className={baseStyles.app}>
-        <div class={baseStyles.wrapper}>
+      <AppWrap>
+        <PageWrap>
           <Header />
           <Sidebar />
           <MainContent>
@@ -57,8 +58,8 @@ class App extends Component {
               </div>
             </div>
           </MainContent>
-        </div>
-      </div>
+        </PageWrap>
+      </AppWrap>
     );
   }
 }
