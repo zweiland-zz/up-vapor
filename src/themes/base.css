@@ -20,3 +20,9 @@ body, html {
   font-size: large;
   text-align: center;
 }
+
+.pageContentWrapper {
+  width: 100%;
+  padding-top: 34px;
+  transition: all 0.4s ease 0s;
+}

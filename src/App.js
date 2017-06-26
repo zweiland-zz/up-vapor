@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import baseStyles from './themes/base.css';
 
-import Header from "./components/header";
+import Header from "./components/shell/header";
 import Sidebar from "./components/shell/sidebar";
 
 class App extends Component {
@@ -13,7 +13,7 @@ class App extends Component {
           <Header />
           <div className={baseStyles.pageContentWrapper}>
              <Sidebar />
-             <div id="page-content-wrapper">
+             <div class={baseStyles.pageContentWrapper}>
                 <div className="page-content">
                    <div className="container-fluid">
                       <div className="row">

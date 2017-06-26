@@ -1,0 +1,8 @@
+/* base.css */
+@import "../../../../themes/base.css";
+
+.logo {
+  float: left;
+  margin: 8px 0 8px 40px;
+  composes: bg-white from "../../../../themes/base/colors.css";
+}
