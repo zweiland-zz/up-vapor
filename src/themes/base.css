@@ -2,12 +2,18 @@
 
 body, html {
   background: #f5f5f5;
+  padding-top: 50px;
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-family: "Helvetica", sans-serif;
 }
 
 .app {
+  background: transparent;
+}
+
+.wrapper {
+  background: red;
 }
 
 .intro {
