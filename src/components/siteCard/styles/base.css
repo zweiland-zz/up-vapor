@@ -1,0 +1,11 @@
+/* siteCard base.css */
+
+.siteCard {
+  text-align: center;
+  margin-top: 16px;
+}
+
+.siteCard p {
+  padding: 40px;
+  margin: 0;
+}

@@ -7,10 +7,13 @@ import Header from "./components/shell/header";
 import Sidebar from "./components/shell/sidebar";
 import MainContent from "./components/shell/mainContent";
 
+import Row from "./components/common/row";
+
 // Landing Page Specific Components
 import Ad from "./components/ad";
 import Filters from "./components/filters";
 import Panel from "./components/panel";
+import SiteCard from "./components/siteCard";
 
 class App extends Component {
   render(props) {
@@ -55,6 +58,14 @@ class App extends Component {
                       panelAlign="left"
                     />
                   </div>
+                </div>
+                <div className="row">
+                  <SiteCard />
+                  <SiteCard />
+                  <SiteCard />
+                  <SiteCard />
+                  <SiteCard />
+                  <SiteCard />
                 </div>
               </div>
             </div>
