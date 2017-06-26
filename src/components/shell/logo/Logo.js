@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
+import { } from 'react-router-dom';
 import baseStyles from './styles/base.css';
 
 export default class Logo extends Component {
   render(props) {
     var { theme } = this.props;
-    console.log(process.env.UP_UI_THEME);
     const BRAND = process.env.UP_UI_THEME;
     return (
       <div className={baseStyles.logo + " " + theme.logo}>
@@ -12,10 +12,14 @@ export default class Logo extends Component {
         <a href="/">Brand Name</a>
         }
         {BRAND === 'bluehost' &&
-          <img src="/images/bluehost-logo.svg" alt="Bluehost Logo" />
+          <a href="/">
+            <img src="/images/bluehost-logo.svg" alt="Bluehost Logo" />
+          </a>
         }
         {BRAND === 'ipage' &&
-          <img src="/images/ipage-logo.svg" alt="iPage Logo" />
+          <a href="/">
+            <img src="/images/ipage-logo.svg" alt="iPage Logo" />
+          </a>
         }
       </div>
     )

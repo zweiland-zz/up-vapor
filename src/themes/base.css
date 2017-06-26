@@ -8,9 +8,24 @@ body, html {
   font-family: "SF UI Text", "Helvetica", sans-serif;
 }
 
+/* Link */
+
+a {
+  color: #0000FF;
+}
+a:hover {
+  color: #000000;
+}
+
+
+/* Utility */
+
 .left     {float:right;}
 .right    {float:right;}
 .centered {margin-left:auto;margin-right:auto;}
+
+
+/* Typography */
 
 .align-left   {text-align: left;}
 .align-right  {text-align: right;}
