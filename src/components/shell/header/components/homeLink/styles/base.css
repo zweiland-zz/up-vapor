@@ -1,25 +1,23 @@
 /* home link base.css */
 
 .homeLink {
-  margin-right: 15px;
-
   float: left;
   height: 50px;
   padding: 15px 15px;
   font-size: 18px;
   line-height: 20px;
 
-  background-color: #4f5358;
+  background-color: black;
 
   margin-left: -15px;
 }
 
 
 .homeLink a {
-  background-color: #4f5358;
-  color: #fff;
+  background-color: black;
+  color: white;
 }
 
 .homeLink span {
-  background-color: #4f5358;
+  background-color: black;
 }

@@ -19,5 +19,8 @@
   z-index: 1030;
 
   border-radius: 0;
+}
 
+.header a:hover {
+  text-decoration: none;
 }

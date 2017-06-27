@@ -2,6 +2,8 @@
 
 body, html {
   font-family: 'Open Sans';
+  font-size: 16px;
+  line-height: 24px;
 }
 
 /* Links */
@@ -15,4 +17,16 @@ a {
   color: white;
   background-color: #3575d3;
   border-color: #3575d3;
+}
+
+
+/* Navigation */
+.nav-pills>li>a {
+  color: #576373;
+}
+.nav-pills>li.active>a,
+.nav-pills>li.active>a:focus,
+.nav-pills>li.active>a:hover {
+  color: #3575d3;
+  background-color: transparent;
 }
