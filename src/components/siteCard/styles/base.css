@@ -33,13 +33,6 @@
   margin: 0 4px;
   padding: 2px 0;
 }
-.siteStatus ul li .active a,
-.siteStatus ul li .active a:focus,
-.siteStatus ul li .active a:hover {
-  background-color: #fff;
-  border-color: #26ce61;
-  color: #212121;
-}
 
 .siteThumb {
   height: 165px;

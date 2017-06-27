@@ -43,6 +43,13 @@ a {
   color: #26ce61;
   background-color: transparent;
 }
+.domain-name .nav-pills>li.active>a,
+.domain-name .nav-pills>li.active>a:focus,
+.domain-name .nav-pills>li.active>a:hover {
+  color: #212121;
+  background-color: transparent;
+  border-bottom-color: #26ce61;
+}
 
 
 

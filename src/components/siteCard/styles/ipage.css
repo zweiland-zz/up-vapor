@@ -1,4 +1,9 @@
 /* siteCard base.css */
 
-.siteCard p {
+.siteStatus ul li.active a,
+.siteStatus ul li.active a:focus,
+.siteStatus ul li.active a:hover {
+  background-color: #fff;
+  border-bottom: 1px solid green;
+  color: black;
 }

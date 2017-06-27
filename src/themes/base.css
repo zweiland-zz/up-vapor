@@ -125,8 +125,6 @@ a:hover {
 }
 
 
-
-
 /* Avatar */
 .avatar, .avatar-s {
   border-radius: 60px;
@@ -159,8 +157,10 @@ a:hover {
 .domain-name ul {
   margin-bottom: 14px;
 }
-
-
+.domain-name .panel-body {
+  height: auto;
+  padding: 4px 16px 0;
+}
 
 .primary-nav {
   padding-top: 24px;
