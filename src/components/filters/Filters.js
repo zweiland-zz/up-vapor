@@ -28,7 +28,7 @@ export default class Filters extends Component {
           {BRAND === 'base' &&
             <ul className="nav nav-tabs content-tabs">
               <li>
-                <h1 className="fsl">Dashboard</h1>
+                <h1 className="fsl mr4">Dashboard</h1>
               </li>
               <li className="active">
                 <a href="/">For You</a>

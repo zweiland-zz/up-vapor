@@ -20,6 +20,10 @@ a {
 
 
 /* Navigation */
+
+.nav-pills>li>a {
+  color: #212121;
+}
 .nav-pills>li.active>a,
 .nav-pills>li.active>a:focus,
 .nav-pills>li.active>a:hover {
