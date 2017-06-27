@@ -1,7 +1,7 @@
 /* iPage Base */
 
 body, html {
-  font-family: 'Franklin Gothic';
+  font-family: 'Open Sans';
   color: #212121;
 }
 
@@ -29,6 +29,10 @@ a {
 
 
 /* Navigation */
+.nav>li>a {
+  padding: 8px;
+  font-size: 16px;
+}
 
 .nav-pills>li>a {
   color: #212121;
@@ -39,6 +43,7 @@ a {
   color: #26ce61;
   background-color: transparent;
 }
+
 
 
 /* Typography */
