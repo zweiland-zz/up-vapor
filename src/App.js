@@ -29,7 +29,7 @@ class App extends Component {
               <div className="container-fluid">
                 {(BRAND === 'base' || BRAND === 'ipage') && <Ad />}
                 <div className="row">
-                  <Filters />
+                  {(BRAND === 'base' || BRAND === 'ipage') && <Filters />}
                   <div className="col-md-6">
                     <Panel
                       panelTitle="Panel title"

@@ -1,4 +1,20 @@
 /* utilityNav base.css */
 
 .utilityNav {
+  float: right;
+  list-style: none;
+}
+
+.utilityNav>li {
+  float: left;
+  position: relative;
+  display: block;
+}
+
+.utilityNav>li>a {
+  color: black;
+  position: relative;
+  display: block;
+  padding: 10px 15px;
+  line-height: 20px;
 }

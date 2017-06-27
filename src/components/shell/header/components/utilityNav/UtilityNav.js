@@ -8,24 +8,23 @@ export default class UtilityNav extends Component {
     var { theme } = this.props;
 //    const BRAND = process.env.UP_UI_THEME;
     return (
-      <div className={"collapse navbar-collapse" + baseStyles.utilityWrap + " " + theme.utilityWrap}>
+      <div className={"collapse navbar-collapse " + baseStyles.utilityWrap + " " + theme.utilityWrap}>
         <ul className={baseStyles.utilityNav + " " + theme.utilityNav}>
           <li>
             <a href="/">
-              <span className="glyphicon glyphicon-bell" aria-hidden="true" />
+              <Icon iconName="bell" />
             </a>
           </li>
           <li>
             <a href="/">
               <Icon iconName="question-sign" />
-              <span className="glyphicon glyphicon-question-sign" aria-hidden="true" />
             </a>
           </li>
           <li>
             <a href="/account">
-              <span className="glyphicon glyphicon-user" aria-hidden="true" />
+              <Icon iconName="user" />
               My Account
-              <span className="glyphicon glyphicon-triangle-bottom" />
+              <Icon iconName="triangle-bottom" />
             </a>
           </li>
         </ul>
