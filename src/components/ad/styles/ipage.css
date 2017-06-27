@@ -1,4 +1,5 @@
-/* ad base.css */
+/* ad ipage.css */
 
-.ad p {
+.ad {
+  margin-top: 16px;
 }

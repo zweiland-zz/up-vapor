@@ -2,10 +2,14 @@
 
 .ad {
   text-align: center;
-  margin-top: 16px;
+  margin: 16px 0;
 }
 
 .ad p {
   padding: 40px;
   margin: 0;
+}
+
+.ad .adPanel {
+  margin-bottom: 0;
 }

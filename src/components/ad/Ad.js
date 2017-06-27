@@ -9,7 +9,7 @@ export default class Ad extends Component {
     return (
       <div className={"row " + baseStyles.ad + " " + theme.ad}>
         <div className="col-md-12">
-          <div className="panel panel-default">
+          <div className={"panel panel-default " + baseStyles.adPanel + " " + theme.adPanel}>
             <p>Ad Space</p>
           </div>
         </div>
