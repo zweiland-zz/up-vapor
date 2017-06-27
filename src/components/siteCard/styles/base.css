@@ -4,18 +4,28 @@
   text-align: center;
   margin-top: 16px;
 }
-
 .siteCard p {
-  padding: 40px;
-  margin: 0;
+  padding: 0;
+  margin: 0 0 24px;
 }
-
 .siteStatus {
-  text-align: center;
-  font-size: 10px;
-  text-transform: uppercase;
 }
 .siteStatus ul {
+  border-radius: 0;
+  color: #999;
+  font-weight: 600;
+  margin: 0 0 24px;
+  padding: 2px 0;
+}
+.siteStatus ul li {
+  float: none;
+  display: inline-block;
+}
+.siteStatus ul li a {
+  font-size: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 0;
   border-bottom: 1px solid #999;
   border-radius: 0;
   color: #999;
@@ -23,11 +33,11 @@
   margin: 0 4px;
   padding: 2px 0;
 }
-.siteStatus li.active>a,
-.siteStatus li.active>a:focus,
-.siteStatus li.active>a:hover {
+.siteStatus ul li .active a,
+.siteStatus ul li .active a:focus,
+.siteStatus ul li .active a:hover {
   background-color: #fff;
-  border-bottom-color: #26ce61;
+  border-color: #26ce61;
   color: #212121;
 }
 
@@ -36,8 +46,4 @@
   background-position: top left;
   background-repeat: no-repeat;
   background-size: cover;
-}
-
-.domain-name ul {
-  margin-bottom: 14px;
 }
