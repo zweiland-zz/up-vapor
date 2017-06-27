@@ -30,3 +30,31 @@ a {
   color: #3575d3;
   background-color: transparent;
 }
+
+
+
+/* PAGE SPECIFIC */
+/* fast work dumping ground */
+.primary-nav {
+  padding-top: 0;
+}
+.nav.primary-nav>li>a {
+    color: #576373;
+    border-radius: 0;
+    padding: 20px 24px;
+}
+.nav.primary-nav>li>a.active {
+  background: #3977d0;
+  color: #fff;
+}
+.primary-nav .glyphicon {
+  display: inline-block;
+  font-size: 22px;
+  margin-right: 12px;
+  top: 5px;
+}
+.wordpress-logo {
+  height: 22px;
+  position: relative;
+  top: -4px;
+}
