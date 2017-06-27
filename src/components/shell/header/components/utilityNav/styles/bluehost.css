@@ -1,5 +1,12 @@
 /* utilityNav bluehost.css */
 
 .utilityNav {
-
+   margin-top: 16px;
 }
+
+.utilityNav>li>a {
+  color: #576373;
+  font-size: 24px;
+}
+
+.utilityNav>li:last-child a i:last-child {display:none;}

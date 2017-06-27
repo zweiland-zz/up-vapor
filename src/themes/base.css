@@ -28,6 +28,11 @@ a:hover {
 
 /* Typography */
 
+.page-title, .fsl {
+  font-size: 24px;
+  margin: 0;
+}
+
 .align-left   {text-align: left;}
 .align-right  {text-align: right;}
 .align-center {text-align: center;}
@@ -51,6 +56,16 @@ a:hover {
 
 /* Navigation */
 
+.nav>li {
+  position: relative;
+  display: block;
+}
+.nav>li>a {
+  position: relative;
+  display: block;
+  padding: 10px 15px;
+}
+
 .nav-pills>li>a {
   color: #666;
 }
@@ -60,3 +75,56 @@ a:hover {
   color: black;
   background-color: transparent;
 }
+
+.nav-tabs {
+  border-bottom: 1px solid #ddd;
+}
+.nav-tabs>li {
+  float: left;
+  margin-bottom: -1px;
+}
+.nav-tabs>li>a {
+  margin-right: 2px;
+  line-height: 1.42857143;
+  border: 1px solid transparent;
+  border-radius: 4px 4px 0 0;
+}
+.nav-tabs.content-tabs>li.active>a,
+.nav-tabs.content-tabs>li.active>a:focus,
+.nav-tabs.content-tabs>li.active>a:hover {
+  background-color: transparent;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 4px solid #000;
+  color: #000;
+  font-weight: 800;
+}
+.nav-tabs>li.active>a,
+.nav-tabs>li.active>a:focus,
+.nav-tabs>li.active>a:hover {
+  color: #555;
+  cursor: default;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-bottom-color: transparent;
+}
+
+
+/* Avatar */
+.avatar, .avatar-s {
+  border-radius: 60px;
+  box-shadow: 0 1px 3px rgba(0,0,5, .5);
+  position: relative;
+  float: left;
+  left:0;
+  top: -5px;
+  width: 30px;
+}
+
+
+/* Margin */
+
+.mt2 { margin-top: 8px; }
+.mt3 { margin-top: 16px; }
+.mb4 { margin-bottom: 24px; }

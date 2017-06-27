@@ -1,9 +1,9 @@
-/* themeB.css */
-@import "../../../../themes/ipage.css";
+/* logo ipage.css */
 
 .logo {
   background: #26ce61;
   font-family: 'Franklin Gothic';
+  margin-top: -3px;
 }
 .logo img {
   height: 30px;

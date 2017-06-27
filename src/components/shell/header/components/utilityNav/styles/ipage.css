@@ -1,5 +1,8 @@
 /* utilityNav ipage.css */
 
 .utilityNav {
+}
 
+.utilityNav>li>a {
+  color: white;
 }

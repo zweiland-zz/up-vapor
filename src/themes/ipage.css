@@ -2,6 +2,7 @@
 
 body, html {
   font-family: 'Franklin Gothic';
+  color: #212121;
 }
 
 /* Links */
@@ -19,6 +20,16 @@ a {
 
 
 /* Navigation */
-.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
-  background-color: #26ce61;
+.nav-pills>li.active>a,
+.nav-pills>li.active>a:focus,
+.nav-pills>li.active>a:hover {
+  color: #26ce61;
+  background-color: transparent;
+}
+
+
+/* Typography */
+.fsl {
+  font-size: 20px;
+  font-weight: 600;
 }

@@ -3,6 +3,7 @@
 .utilityNav {
   float: right;
   list-style: none;
+  margin-top: 4px;
 }
 
 .utilityNav>li {
@@ -10,11 +11,26 @@
   position: relative;
   display: block;
 }
+.utilityNav>li:last-child a {padding-right:0;}
+.utilityNav>li:last-child a i:last-child {font-size: 10px;}
 
 .utilityNav>li>a {
-  color: black;
+  color: #9d9d9d;
   position: relative;
   display: block;
   padding: 10px 15px;
   line-height: 20px;
+}
+.utilityNav>li>a .glyphicon-triangle-bottom {
+  background: green;
+}
+
+.utilityNav>li>a {
+}
+
+.utilityProfile>a>span {
+  margin: 0 8px;
+}
+.utilityProfile .glyphicon {
+  font-size: 0;
 }
