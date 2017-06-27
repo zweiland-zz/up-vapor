@@ -12,10 +12,14 @@ body, html {
 /* Link */
 
 a {
-  color: #000000;
+  color: black;
+  display: inline-block;
 }
 a:hover {
-  color: #000000;
+  color: black;
+}
+.link-dark {
+  color: black;
 }
 
 
@@ -28,14 +32,24 @@ a:hover {
 
 /* Typography */
 
+.bold, strong {
+  font-weight: bold;
+}
+
 .page-title, .fsl {
   font-size: 24px;
   margin: 0;
 }
+.fsm  {font-size: 16px;}
+.fss  {font-size: 14px;}
+.fsxs {font-size: 12px;}
 
 .align-left   {text-align: left;}
 .align-right  {text-align: right;}
 .align-center {text-align: center;}
+
+.uppercase    {text-transform: uppercase;}
+.lowercase    {text-transform: lowercase;}
 
 
 /* Panels */

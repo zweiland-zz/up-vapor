@@ -30,6 +30,9 @@ class App extends Component {
                 {(BRAND === 'base' || BRAND === 'ipage') && <Ad />}
                 <div className="row">
                   {(BRAND === 'base' || BRAND === 'ipage') && <Filters />}
+                </div>
+                {BRAND === 'base' &&
+                <div className="row">
                   <div className="col-md-6">
                     <Panel
                       panelTitle="Panel title"
@@ -59,6 +62,7 @@ class App extends Component {
                     />
                   </div>
                 </div>
+                }
                 <div className="row">
                   <SiteCard />
                   <SiteCard />

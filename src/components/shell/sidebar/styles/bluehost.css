@@ -2,4 +2,6 @@
 
 .sidebar {
   top: 80px;
+  background: #fff;
+  border-right: 1px solid #dce0e6;
 }

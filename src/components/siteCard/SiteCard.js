@@ -11,35 +11,34 @@ export default class SiteCard extends Component {
     return (
       <div className="col-lg-4">
         <div className={baseStyles.siteCard + " " + theme.siteCard}>
-          <div className={"panel panel-default align-center domain-name site"}>
+          <div className={"panel panel-default align-center domain-name"}>
             <div className="panel-heading">
-              <div className="site-thumb">
-              </div>
+              <div className={baseStyles.siteThumb + " " + theme.siteThumb} />
             </div>
             <div className="panel-body">
               <h3>
-                <a href="./#/">www.domain.com</a>
+                <a href="/" className="link-dark">www.domain.com</a>
               </h3>
-              <ul className="nav nav-pills site-status">
-                <li role="presentation" className="active">
-                  <a href="./#/">Live</a>
-                </li>
-                <li role="presentation">
-                  <a href="./#/">Private</a>
-                </li>
-                <li role="presentation">
-                  <a href="./#/">SSL</a>
-                </li>
-                <li role="presentation">
-                  <a href="./#/">Renew</a>
-                </li>
-              </ul>
+              <div className={baseStyles.siteStatus + " " + theme.siteStatus}>
+                <ul className="nav nav-pills">
+                  <li className="active">
+                    <a href="/">Live</a>
+                  </li>
+                  <li>
+                    <a href="/">Private</a>
+                  </li>
+                  <li>
+                    <a href="/">SSL</a>
+                  </li>
+                  <li>
+                    <a href="/">Renew</a>
+                  </li>
+                </ul>
+              </div>
               <p>external domain</p>
             </div>
             <div className="panel-footer">
-              <a className="manage" href="./#/">
-                <strong>Manage</strong>
-              </a>
+              <a className="manage bold fsxs uppercase" href="./#/">Manage</a>
             </div>
           </div>
         </div>

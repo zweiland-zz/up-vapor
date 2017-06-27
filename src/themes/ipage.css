@@ -7,7 +7,10 @@ body, html {
 
 /* Links */
 a {
-  color: #26ce61;
+  color: #0288d1;
+}
+.link-dark {
+  color: #212121;
 }
 
 
@@ -16,6 +19,12 @@ a {
   color: white;
   background-color: #26ce61;
   border-color: #26ce61;
+}
+
+/* Typography */
+.bold, strong {
+  font-family: "ITC Franklin Gothic Std";
+  font-weight: 600;
 }
 
 

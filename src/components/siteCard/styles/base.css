@@ -9,3 +9,35 @@
   padding: 40px;
   margin: 0;
 }
+
+.siteStatus {
+  text-align: center;
+  font-size: 10px;
+  text-transform: uppercase;
+}
+.siteStatus ul {
+  border-bottom: 1px solid #999;
+  border-radius: 0;
+  color: #999;
+  font-weight: 600;
+  margin: 0 4px;
+  padding: 2px 0;
+}
+.siteStatus li.active>a,
+.siteStatus li.active>a:focus,
+.siteStatus li.active>a:hover {
+  background-color: #fff;
+  border-bottom-color: #26ce61;
+  color: #212121;
+}
+
+.siteThumb {
+  height: 165px;
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.domain-name ul {
+  margin-bottom: 14px;
+}
