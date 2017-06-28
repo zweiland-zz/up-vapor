@@ -175,6 +175,7 @@ module.exports = {
       // in the main CSS file.
       {
         test: /\.css$/,
+        exclude: [/node_modules/, /themes/],
         loader: ExtractTextPlugin.extract(
           Object.assign(
             {
@@ -215,6 +216,16 @@ module.exports = {
           )
         ),
         // Note: this won't work without `new ExtractTextPlugin()` in `plugins`.
+      },
+      {
+        test: /\.css$/,
+        include: [/node_modules/, /themes/],
+        use: [
+          require.resolve('style-loader'),
+          {
+            loader: require.resolve('css-loader'),
+          },
+        ],
       },
       // ** STOP ** Are you adding a new loader?
       // Remember to add the new extension(s) to the "file" loader exclusion list.
