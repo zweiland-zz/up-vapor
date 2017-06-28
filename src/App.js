@@ -7,8 +7,6 @@ import Header from "./components/shell/header";
 import Sidebar from "./components/shell/sidebar";
 import MainContent from "./components/shell/mainContent";
 
-import Row from "./components/common/row";
-
 // Landing Page Specific Components
 import Ad from "./components/ad";
 import Filters from "./components/filters";
@@ -65,11 +63,11 @@ class App extends Component {
                 }
                 {BRAND === 'ipage' &&
                 <div className="row">
-                  <div className="col-lg-4">
-                    <div className="panel panel-default align-center">
-                      <p>Purchase Domain</p>
-                      <p>or</p>
-                      <p>Import Domain</p>
+                  <div className="col-md-4">
+                    <div className="panel panel-default domain-options align-center">
+                      <div className="panel-heading"><a href="/">Purchase Domain</a></div>
+                      <div className="panel-body domain-split"><span>or</span></div>
+                      <div className="panel-footer"><a href="/">Import Domain</a></div>
                     </div>
                   </div>
                   <SiteCard siteDomain="homedepot.com" siteImgUrlStye="" />
