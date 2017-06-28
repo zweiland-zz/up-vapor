@@ -141,6 +141,9 @@ a:hover {
 
 .mt2 { margin-top: 8px; }
 .mt3 { margin-top: 16px; }
+.mt4 { margin-top: 24px; }
+.mt5 { margin-top: 40px; }
+.mt6 { margin-top: 80px; }
 
 .mb4 { margin-bottom: 24px; }
 
@@ -148,6 +151,94 @@ a:hover {
 .mr2 { margin-right: 8px; }
 .mr3 { margin-right: 16px; }
 .mr4 { margin-right: 24px; }
+
+
+/* ----------------------- */
+/* HOSTGATOR SPECIFIC CARD */
+/* ----------------------- */
+/* Card */
+.card {
+  background-color: #fff;
+  box-shadow:
+    0 2px 2px 0 rgba(0,0,0,.14),
+    0 1px 5px 0 rgba(0,0,0,.12),
+    0 3px 1px -2px rgba(0,0,0,.2);
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  z-index: 20;
+  border-radius: 2px;
+}
+.card:hover {
+  box-shadow: 0 10px 20px rgba(0,0,0,.19), 0 6px 6px rgba(0,0,0,.23);
+}
+.card-img-top {
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+}
+.card-img-top img {
+  max-width: 100%;
+}
+.card-block {
+  flex: 1 1 auto;
+  padding: 1rem;
+}
+.card-footer {
+  padding: 0 1rem 1rem;
+}
+.card-footer:last-child {
+  border-bottom-right-radius: 2px;
+  border-bottom-left-radius: 2px;
+}
+.marketplace--marketplace-list-item {
+  margin-bottom: 24px;
+}
+.marketplace--marketplace-list-item .card .card-img-top {
+  border-bottom: 1px solid #e0e0e0;
+  background: #eee;
+  width: 100%;
+  display: block;
+  height: auto;
+  background-position: center top;
+  background-size: cover;
+}
+.marketplace--marketplace-list-item .card .card-block {
+  padding: 13px 21px 0;
+}
+.marketplace--marketplace-list-item .card .card-footer.extra-padding {
+  padding: 0 .5rem 11px 5px;
+}
+.marketplace--marketplace-list-item .card .card-footer {
+  padding: 0 .5rem 5px 5px;
+}
+.marketplace--marketplace-list-item .card .card-block .marketplace-name {
+  font-size: 18px;
+  margin-bottom: 0;
+  float: left;
+  letter-spacing: normal;
+}
+.marketplace--marketplace-list-item .card .card-block .marketplace-description {
+  float: left;
+  min-height: 42px;
+  clear: both;
+  text-align: left;
+  font-size: 15px;
+}
+.marketplace--marketplace-list-item .card .card-block .marketplace-price {
+  float: left;
+  margin-top: 5px;
+  clear: both;
+}
+.marketplace--marketplace-list-item .card .card-footer a {
+  font-size: 14px;
+  text-transform: uppercase;
+}
+.float-left {
+  float: left !important;
+}
+/* ----------------------- */
+/* END HG SPECIFIC CARD    */
+/* ----------------------- */
 
 
 /* PAGE SPECIFIC */

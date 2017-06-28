@@ -5,6 +5,10 @@
   color: #fff;
   top: 62px;
   z-index: 1;
+  background-image: url(https://cphostgatoruscentralweb.blob.core.windows.net/d-cp-hostgator-1497621785313/81efa28ea16846e36c15c27920eb2fe4.png);
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: 175px;
   /*
   position: fixed;
   overflow: hidden;

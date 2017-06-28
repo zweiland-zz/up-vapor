@@ -23,7 +23,7 @@ export default class Logo extends Component {
         }
         {BRAND === 'websiteBuilder' &&
           <Link to="/">
-            <img src="/images/website-builder-logo.png" alt="Website Builder Logo" />
+            <img src="/images/logo-hostgator.png" alt="HostGator Logo" />
           </Link>
         }
       </div>

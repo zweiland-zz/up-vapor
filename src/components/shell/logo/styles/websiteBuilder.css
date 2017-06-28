@@ -1,4 +1,10 @@
 
 .logo {
-  height: 62px;
+  display: block;
+  margin: 8px 0 0 15px;
+}
+
+.logo img {
+  max-width: 100%;
+  height: 46px;
 }

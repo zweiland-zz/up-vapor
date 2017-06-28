@@ -18,7 +18,7 @@ export default class Header extends Component {
           <div className={"navbar-header"}>
             {(BRAND === 'base' || BRAND === 'ipage') && <HomeLink />}
             <div className={"navbar-brand " + baseStyles.navbarBrand + " " +  + theme.navbarBrand}>
-              {BRAND === 'base' && <MenuToggle />}
+              {(BRAND === 'base' || BRAND === 'websiteBuilder') && <MenuToggle />}
               <Logo />
             </div>
           </div>

@@ -1,0 +1,8 @@
+/* menuToggle base.css */
+
+.menuToggle {
+  color: white;
+  line-height: 62px;
+  padding-left: 1pc;
+  cursor: pointer;
+}
