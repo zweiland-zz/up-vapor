@@ -23,8 +23,7 @@ a {
 
 /* Typography */
 .bold, strong {
-  font-family: "ITC Franklin Gothic Std";
-  font-weight: 600;
+  font-weight: bold;
 }
 
 
