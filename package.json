@@ -9,7 +9,8 @@
     "react": "^15.6.1",
     "react-bootstrap": "^0.31.0",
     "react-dom": "^15.6.1",
-    "react-router-dom": "^4.1.1"
+    "react-router-dom": "^4.1.1",
+    "webpack": "^2.6.1"
   },
   "devDependencies": {
     "autoprefixer": "7.1.0",
@@ -46,13 +47,13 @@
     "style-loader": "0.17.0",
     "sw-precache-webpack-plugin": "0.9.1",
     "url-loader": "0.5.8",
-    "webpack": "2.6.1",
+    "webpack": "^2.6.1",
     "webpack-dev-server": "2.4.5",
     "webpack-manifest-plugin": "1.1.0",
     "whatwg-fetch": "2.0.3"
   },
   "scripts": {
-    "start": "node scripts/start.js",
+    "start": "UP_UI_THEME=base node scripts/start.js",
     "start-base": "UP_UI_THEME=base node scripts/start.js",
     "start-bluehost": "UP_UI_THEME=bluehost node scripts/start.js",
     "start-ipage": "UP_UI_THEME=ipage node scripts/start.js",
