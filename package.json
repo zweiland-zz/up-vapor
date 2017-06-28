@@ -5,6 +5,7 @@
   "dependencies": {
     "bootstrap": "^3.3.7",
     "bootstrap-sass": "^3.3.7",
+    "dotenv": "^4.0.0",
     "react": "^15.6.1",
     "react-bootstrap": "^0.31.0",
     "react-dom": "^15.6.1",
@@ -21,7 +22,7 @@
     "case-sensitive-paths-webpack-plugin": "1.1.4",
     "chalk": "1.1.3",
     "css-loader": "0.28.1",
-    "dotenv": "4.0.0",
+    "dotenv": "^4.0.0",
     "eslint": "3.19.0",
     "eslint-config-react-app": "^1.0.4",
     "eslint-loader": "1.7.1",
@@ -56,13 +57,11 @@
     "start-bluehost": "UP_UI_THEME=bluehost node scripts/start.js",
     "start-ipage": "UP_UI_THEME=ipage node scripts/start.js",
     "start-websiteBuilder": "UP_UI_THEME=websiteBuilder node scripts/start.js",
-
     "build": "UP_UI_THEME=base node scripts/build.js",
     "build-base": "UP_UI_THEME=base node scripts/build.js",
     "build-ipage": "UP_UI_THEME=ipage node scripts/build.js",
     "build-bluehost": "UP_UI_THEME=bluehost node scripts/build.js",
     "build-websiteBuilder": "UP_UI_THEME=websiteBuilder node scripts/build.js",
-
     "test": "node scripts/test.js --env=jsdom"
   },
   "jest": {
