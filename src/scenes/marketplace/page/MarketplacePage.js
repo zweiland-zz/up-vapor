@@ -45,7 +45,7 @@ class MarketplacePage extends Component {
                       <div>
                         <span>
                           <a data-property="select-plan-link" className="float-left" href="/checkout/group/HOSTGATOR_VPSHOSTING">
-                            <button data-property="select-addon-button" type="button">
+                            <button className="btn btn-default" data-property="select-addon-button" type="button">
                               <div>
                                 <span>
                                   <span>Buy Now</span>
@@ -77,7 +77,7 @@ class MarketplacePage extends Component {
                         <div>
                           <span>
                             <a data-property="select-plan-link" className="float-left" href="/checkout/group/HOSTGATOR_VPSHOSTING">
-                              <button data-property="select-addon-button" type="button">
+                              <button className="btn btn-default" data-property="select-addon-button" type="button">
                                 <div>
                                   <span>
                                     <span>Buy Now</span>
@@ -109,7 +109,7 @@ class MarketplacePage extends Component {
                         <div>
                           <span>
                             <a data-property="select-plan-link" className="float-left" href="/checkout/group/HOSTGATOR_VPSHOSTING">
-                              <button data-property="select-addon-button" type="button">
+                              <button className="btn btn-default" data-property="select-addon-button" type="button">
                                 <div>
                                   <span>
                                     <span>Buy Now</span>
@@ -141,7 +141,7 @@ class MarketplacePage extends Component {
                         <div>
                           <span>
                             <a data-property="select-plan-link" className="float-left" href="/checkout/group/HOSTGATOR_VPSHOSTING">
-                              <button data-property="select-addon-button" type="button">
+                              <button className="btn btn-default" data-property="select-addon-button" type="button">
                                 <div>
                                   <span>
                                     <span>Buy Now</span>
@@ -172,7 +172,7 @@ class MarketplacePage extends Component {
                         <div>
                           <span>
                             <a data-property="select-plan-link" className="float-left" href="/checkout/group/HOSTGATOR_VPSHOSTING">
-                              <button data-property="select-addon-button" type="button">
+                              <button className="btn btn-default" data-property="select-addon-button" type="button">
                                 <div>
                                   <span>
                                     <span>Buy Now</span>

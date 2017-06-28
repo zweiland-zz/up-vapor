@@ -76,13 +76,17 @@ a {
     height: 298px;
   }
 }
-.panel {
+.panel, .card {
   margin-bottom: 20px;
   background-color: #fff;
   border: 1px solid transparent;
   border-radius: 4px;
   -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
   box-shadow: 0 1px 1px rgba(0,0,0,.05);
+  border-color: #dce0e6;
+}
+.card:hover {
+  box-shadow: 0 3px 6px 0 rgba(183,183,183,0.5), 0 1px 0 0 rgba(223,223,223,0.5);
 }
 .panel-default {
   border-color: #dce0e6;
