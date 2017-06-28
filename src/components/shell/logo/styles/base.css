@@ -3,5 +3,5 @@
 
 .logo {
   float: left;
-  composes: bg-white from "../../../../themes/base/colors.css";
+  /*composes: bg-white from "../../../../themes/base/colors.css";*/
 }

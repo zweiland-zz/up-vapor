@@ -35,3 +35,4 @@ export default class Panel extends Component {
 }
 
 Panel.propTypes = propTypes;
+Panel.defaultProps = defaultProps;

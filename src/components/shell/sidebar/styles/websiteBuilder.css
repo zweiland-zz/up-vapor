@@ -1,0 +1,23 @@
+/* sidebar websiteBuilder.css */
+
+.sidebar {
+  background-color: #206fb4;
+  color: #fff;
+  top: 62px;
+  z-index: 1;
+  /*
+  position: fixed;
+  overflow: hidden;
+  user-select: none;
+  -moz-transform: translate3d(-100%,0,0);
+  -ms-transform: translate3d(-100%,0,0);
+  -o-transform: translate3d(-100%,0,0);
+  -webkit-transform: translate3d(-100%,0,0);
+  transform: translate3d(-100%,0,0);
+  transition: transform .2s ease-in-out;
+  */
+}
+
+.sidebar>nav>.nav.primary-nav>li>a {
+  color: #fff;
+}

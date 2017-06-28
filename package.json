@@ -52,12 +52,18 @@
   },
   "scripts": {
     "start": "node scripts/start.js",
-    "build": "node scripts/build.js",
-    "test": "node scripts/test.js --env=jsdom",
     "start-base": "UP_UI_THEME=base node scripts/start.js",
     "start-bluehost": "UP_UI_THEME=bluehost node scripts/start.js",
     "start-ipage": "UP_UI_THEME=ipage node scripts/start.js",
-    "start-websiteBuilder": "UP_UI_THEME=websiteBuilder node scripts/start.js"
+    "start-websiteBuilder": "UP_UI_THEME=websiteBuilder node scripts/start.js",
+    
+    "build": "node scripts/build.js",
+    "build-base": "UP_UI_THEME=base node scripts/build.js",
+    "build-ipage": "UP_UI_THEME=ipage node scripts/build.js",
+    "build-bluehost": "UP_UI_THEME=bluehost node scripts/build.js",
+    "build-websiteBuilder": "UP_UI_THEME=websiteBuilder node scripts/build.js",
+
+    "test": "node scripts/test.js --env=jsdom"
   },
   "jest": {
     "collectCoverageFrom": [

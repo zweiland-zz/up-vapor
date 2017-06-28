@@ -21,6 +21,11 @@ export default class Logo extends Component {
             <img src="/images/ipage-logo.svg" alt="iPage Logo" />
           </a>
         }
+        {BRAND === 'websiteBuilder' &&
+          <a href="/">
+            <img src="/images/website-builder-logo.png" alt="Website Builder Logo" />
+          </a>
+        }
       </div>
     )
   }
