@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { } from 'react-router-dom';
 import baseStyles from './styles/base.css';
 
 import Logo from "../logo";
