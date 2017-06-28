@@ -18,15 +18,15 @@ const defaultProps = {
   siteClass: 'site-name',
   domainInfo: 'external domain',
 };
-const siteImgUrlStye = {
-  backgroundImage: 'url(' + this.siteImgUrl + ')',
-}
 
 class SiteCard extends Component {
   render(props) {
     var { theme } = this.props;
     console.log(process.env.UP_UI_THEME);
     // const BRAND = process.env.UP_UI_THEME;
+    const siteCardImgStyle = {
+      backgroundImage: "url("+this.props.siteImgUrl+")",
+    }
     return (
       <div className="col-lg-4">
         <div className={baseStyles.siteCard + " " + theme.siteCard}>
@@ -34,7 +34,7 @@ class SiteCard extends Component {
             <div className="panel-heading">
               <div
                 className={baseStyles.siteThumb + " " + theme.siteThumb}
-                style={siteImgUrlStye}
+                style={siteCardImgStyle}
               />
             </div>
             <div className="panel-body">

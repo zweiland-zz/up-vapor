@@ -61,7 +61,7 @@ class App extends Component {
                   </div>
                 </div>
                 }
-                {BRAND === 'ipage' &&
+                {(BRAND === 'ipage') &&
                 <div className="row">
                   <div className="col-md-4">
                     <div className="panel panel-default domain-options align-center">
@@ -70,11 +70,11 @@ class App extends Component {
                       <div className="panel-footer"><a href="/">Import Domain</a></div>
                     </div>
                   </div>
-                  <SiteCard siteDomain="homedepot.com" siteImgUrlStye="" />
-                  <SiteCard siteDomain="starbucks.com" />
-                  <SiteCard siteDomain="in-n-out.com" />
-                  <SiteCard siteDomain="wholefoodsmarket.com" />
-                  <SiteCard siteDomain="mcdonalds.com" domainInfo="expires in 2 years - Jan 23, 2019" />
+                  <SiteCard siteDomain="homedepot.com" siteImgUrl="/images/hd-site-thumb.png" />
+                  <SiteCard siteDomain="starbucks.com" siteImgUrl="/images/sb-site-thumb.png" />
+                  <SiteCard siteDomain="in-n-out.com" siteImgUrl="/images/innout-site-thumb.png" />
+                  <SiteCard siteDomain="wholefoodsmarket.com" siteImgUrl="/images/wholefoods-site-thumb.png" />
+                  <SiteCard siteDomain="mcdonalds.com" siteImgUrl="/images/mcdonalds-site-thumb.png" domainInfo="expires in 2 years - Jan 23, 2019" />
                 </div>
                 }
                 {BRAND === 'bluehost' &&
