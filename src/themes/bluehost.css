@@ -1,10 +1,10 @@
 /* Bluehost Base */
 
-body, html {
-  font-family: 'Open Sans';
-  font-size: 16px;
-  line-height: 24px;
-  color: #344154; /* 576373 */
+body {
+    background-color: #f4f7f9;
+    color: #5c5c5c;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica;
+    font-size: 16px;
 }
 
 /* Links */
