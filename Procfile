@@ -1,1 +1,1 @@
-web: yarn run start-bluehost
+web: yarn run start-ipage
