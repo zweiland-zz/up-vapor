@@ -1,9 +1,28 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 import baseStyles from './styles/base.css';
 
-import Row from "../common/row";
+const { string } = PropTypes;
+const propTypes = {
+  siteName: string,
+  siteDomain: string,
+  siteClass: string,
+  siteImgUrl: string,
+  siteImgUrlStyle: string,
+  domainInfo: string,
+};
+const defaultProps = {
+  siteImgUrl: '/images/hd-site-thumb.png',
+  siteName: 'Site Name',
+  siteDomain: 'site-domain.com',
+  siteClass: 'site-name',
+  domainInfo: 'external domain',
+};
+const siteImgUrlStye = {
+  backgroundImage: 'url(' + this.siteImgUrl + ')',
+}
 
-export default class SiteCard extends Component {
+class SiteCard extends Component {
   render(props) {
     var { theme } = this.props;
     console.log(process.env.UP_UI_THEME);
@@ -13,11 +32,16 @@ export default class SiteCard extends Component {
         <div className={baseStyles.siteCard + " " + theme.siteCard}>
           <div className={"panel panel-default align-center domain-name"}>
             <div className="panel-heading">
-              <div className={baseStyles.siteThumb + " " + theme.siteThumb} />
+              <div
+                className={baseStyles.siteThumb + " " + theme.siteThumb}
+                style={siteImgUrlStye}
+              />
             </div>
             <div className="panel-body">
               <h3>
-                <a href="/" className="link-dark">www.domain.com</a>
+                <a href="/" className="link-dark">
+                  {this.props.siteDomain}
+                </a>
               </h3>
               <div className={baseStyles.siteStatus + " " + theme.siteStatus}>
                 <ul className="nav nav-pills">
@@ -35,7 +59,7 @@ export default class SiteCard extends Component {
                   </li>
                 </ul>
               </div>
-              <p>external domain</p>
+              <p>{this.props.domainInfo}</p>
             </div>
             <div className="panel-footer">
               <a className="manage bold fsxs uppercase" href="./#/">Manage</a>
@@ -46,3 +70,7 @@ export default class SiteCard extends Component {
     )
   }
 }
+
+SiteCard.propTypes = propTypes;
+SiteCard.defaultProps = defaultProps;
+export default SiteCard;
