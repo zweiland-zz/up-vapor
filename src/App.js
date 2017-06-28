@@ -78,7 +78,7 @@ class App extends Component {
                 </div>
                 }
                 {BRAND === 'bluehost' &&
-                <main>
+                <div>
                   <div className="row">
                       <div className="col-md-12">
                         <h1 className="title">Welcome to Bluehost!</h1>
@@ -187,9 +187,9 @@ class App extends Component {
                         </div>
                       </div>
                     </div>
-                    </main>
-                    }
                   </div>
+                  }
+                </div>
               </div>
           </MainContent>
         </PageWrap>
