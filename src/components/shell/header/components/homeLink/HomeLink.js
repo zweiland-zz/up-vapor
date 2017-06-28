@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import baseStyles from './styles/base.css';
 
 export default class Logo extends Component {
@@ -6,11 +7,9 @@ export default class Logo extends Component {
     var { theme } = this.props;
 //    const BRAND = process.env.UP_UI_THEME;
     return (
-      <div className={baseStyles.homeLink + " " + theme.homeLink}>
-        <a href="/">
+        <Link to="/" className={baseStyles.homeLink + " " + theme.homeLink}>
           <i className="glyphicon glyphicon-home home-link" />
-        </a>
-      </div>
+        </Link>
     )
   }
 }

@@ -11,11 +11,11 @@
 }
 
 
-.homeLink a,
-.homeLink a:hover,
-.homeLink a:active,
-.homeLink a:focus,
-.homeLink a:active:focus {
+.homeLink,
+.homeLink:hover,
+.homeLink:active,
+.homeLink:focus,
+.homeLink:active:focus {
   color: white;
 }
 

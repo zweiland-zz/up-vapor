@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import baseStyles from './styles/base.css';
 
 export default class Logo extends Component {
@@ -9,22 +9,22 @@ export default class Logo extends Component {
     return (
       <div className={baseStyles.logo + " " + theme.logo}>
         {BRAND === 'base' &&
-        <a href="/">Brand Name</a>
+        <Link to="/">Brand Name</Link>
         }
         {BRAND === 'bluehost' &&
-          <a href="/">
+          <Link to="/">
             <img src="/images/bluehost-logo.svg" alt="Bluehost Logo" />
-          </a>
+          </Link>
         }
         {BRAND === 'ipage' &&
-          <a href="/">
+          <Link to="/">
             <img src="/images/ipage-logo.svg" alt="iPage Logo" />
-          </a>
+          </Link>
         }
         {BRAND === 'websiteBuilder' &&
-          <a href="/">
+          <Link to="/">
             <img src="/images/website-builder-logo.png" alt="Website Builder Logo" />
-          </a>
+          </Link>
         }
       </div>
     )

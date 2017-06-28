@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import baseStyles from './styles/base.css';
 
 import Icon from "../../../../common/icon";
@@ -12,29 +13,31 @@ export default class UtilityNav extends Component {
         <ul className={baseStyles.utilityNav + " " + theme.utilityNav}>
           {BRAND === 'bluehost' && <li><a href="/"><Icon iconName="search" /></a></li> }
           <li>
-            <a href="/">
+            <Link to="/">
               <Icon iconName="bell" />
-            </a>
+            </Link>
           </li>
           {BRAND !== 'bluehost' &&
           <li>
-            <a href="/">
+            <Link to="/">
               <Icon iconName="question-sign" />
-            </a>
+            </Link>
           </li>
           }
           {BRAND === 'bluehost' &&
             <li>
-              <a href="/"><Icon iconName="shopping-cart" /></a>
+              <Link to="/">
+                <Icon iconName="shopping-cart" />
+              </Link>
             </li>
           }
           <li className={baseStyles.utilityProfile + " " + theme.utilityProfile}>
-            <a href="/account">
+            <Link to="/account">
               {(BRAND === 'base' || BRAND === 'bluehost') && <Icon iconName="user" /> }
               {BRAND === 'ipage' && <img className="avatar avatar-s" src="/images/profile.jpeg" alt="profile" /> }
               {(BRAND === 'base' || BRAND === 'ipage') && <span>My Account</span> }
               <Icon iconName="triangle-bottom" />
-            </a>
+            </Link>
           </li>
         </ul>
       </div>

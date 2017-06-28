@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import baseStyles from './styles/base.css';
 
 import Icon from "../../common/icon";
@@ -14,78 +14,80 @@ export default class Sidebar extends Component {
         <nav id="spy">
           <ul className="nav nav-pills nav-stacked primary-nav">
             <li>
-              <a href="/" className="active">
+              <Link to="/" className="active">
                 <Icon iconName="home" />
                 <span className="fa fa-home solo">Home</span>
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#anch1">
+              <Link to="/sites">
                 <i className="glyphicon">
                   <img src="/images/wordpress-logo.png" alt="WP" className="wordpress-logo" />
                 </i>
                 <span className="fa fa-anchor solo">My Sites</span>
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#anch2">
+              <Link to="/marketplace">
                 <Icon iconName="tag" />
                 <span className="fa fa-anchor solo">Marketplace</span>
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#anch3">
+              <Link to="/email">
                 <Icon iconName="envelope" />
                 <span className="fa fa-anchor solo">Email</span>
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#anch4">
+              <Link to="/domains">
                 <Icon iconName="globe" />
                 <span className="fa fa-anchor solo">Domains</span>
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#anch4">
+              <Link to="/cpanel">
                 <Icon iconName="screenshot" />
-                <span className="fa fa-anchor solo">Advanced</span>
-              </a>
+                <span className="fa fa-anchor solo">cPanel</span>
+              </Link>
             </li>
             <li>
-              <a href="#anch4">
+              <a href="/help">
                 <Icon iconName="record" />
                 <span className="fa fa-anchor solo">Help</span>
               </a>
             </li>
             <li>
-              <a href="#anch4">
+              <Link to="/chat">
                 <Icon iconName="comment" />
                 <span className="fa fa-anchor solo">Live Chat</span>
-              </a>
+              </Link>
             </li>
           </ul>
 
           {BRAND === 'base' &&
             <ul className="nav nav-pills nav-stacked account-nav">
               <li>
-                <a href="#home"><span className="fa fa-home solo">Settings</span></a>
+                <Link to="/settings">
+                  <span className="fa fa-home solo">Settings</span>
+                </Link>
               </li>
               <li>
-                <a href="#anch1">
+                <Link to="/help">
                   <span className="fa fa-anchor solo">Support</span>
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#anch2">
+                <Link to="/account/logout">
                   <span className="fa fa-anchor solo">Logout</span>
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#anch2">
+                <Link to="/account">
                   <span className="account-username">test30proto</span>
                   <br />
                   <span className="account-info">admin@test30proto.com</span>
-                </a>
+                </Link>
               </li>
             </ul>
           }
