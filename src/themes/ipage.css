@@ -30,6 +30,15 @@ a {
   background-color: #007ADB;
   border-color: #007ADB;
 }
+.btn.no-border {
+  border-width: 0;
+}
+.btn-primary, .btn-primary:hover {
+  color: #fff;
+  background-color: #FE0657;
+  border-color: #FE0657;
+}
+
 
 /* Typography */
 .bold, strong {

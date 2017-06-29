@@ -8,6 +8,7 @@ import Sidebar from "../../../components/shell/sidebar";
 import MainContent from "../../../components/shell/mainContent";
 
 import MediaBlock from "../../../components/mediaBlock";
+import Icon from "../../../components/common/icon";
 
 class SitesPage extends Component {
   render(props) {
@@ -21,9 +22,9 @@ class SitesPage extends Component {
             <div className="my-sites-holder">
               <div className="container site-details">
 
-                <div className="row mt5 mb5 floating-row">
+                <div className="row mx0 mt5 mb5 floating-row">
                   <div className="col-md-4 col-sm-12">
-                    <div className="imageloader loaded site-details--thumbnail desktop">
+                    <div className="imageLoader loaded site-details--thumbnail desktop">
                       <img className="mw-100" src="https://storage.googleapis.com/wzsitethumbnails/site-500027/800x500.jpg?1491905951" alt="site thumbnail" />
                     </div>
                   </div>
@@ -38,41 +39,26 @@ class SitesPage extends Component {
                         </div>
                       </div>
                       <p className="site-details--content--last-updated">
-                        <strong><span>Last updated:</span></strong>
-                        Wed, Jun 28, 2017 9:58 AM
+                        <strong><span>Last updated:</span></strong> Wed, Jun 28, 2017 9:58 AM
                       </p>
-                    </div>
-                    <div className="site-details--content--footer clearfix">
-                    <div>
-                      <button className="btn btn-primary left" data-property="site-detail-upgrade-button" type="button">
+                      <div className="site-details--content--footer clearfix">
                         <div>
-                          <div>
-                            <span><span>Upgrade site</span></span>
+                          <button className="btn btn-primary left" data-property="site-detail-upgrade-button" type="button">
+                            Upgrade site
+                          </button>
+                          <a className="left btn btn-default ml2" href="http://editor.websitetailor.latest.wzdev.co#/site/45499766/desktop">
+                            Edit site
+                          </a>
+                          <div className="right">
+                             <div>
+                                <div className="btn btn-default no-border">
+                                  <Icon iconName="star-empty" />
+                                </div>
+                             </div>
                           </div>
                         </div>
-                      </button>
-                      <a className="left ml-1" href="http://editor.websitetailor.latest.wzdev.co#/site/45499766/desktop">
-                        <button className="left btn btn-default" data-property="site-detail-edit-button" type="button">
-                          <div>
-                            <span>
-                              <span>Edit site</span>
-                            </span>
-                          </div>
-                        </button>
-                      </a>
-                        <div className="float-right">
-                           <div>
-                              <button tabindex="0" type="button" className="btn btn-default">
-                                 <div>
-                                    <svg viewBox="0 0 24 24">
-                                       <path d="M12 8c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm0 2c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm0 6c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z"></path>
-                                    </svg>
-                                 </div>
-                              </button>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
 

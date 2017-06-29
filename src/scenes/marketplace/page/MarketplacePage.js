@@ -27,7 +27,7 @@ class MarketplacePage extends Component {
                   </div>
                 </div>
               </div>
-              <div className="row mt6">
+              <div className="row mt5">
                 <div className="col-xs-12 col-sm-4 col-md-4 col-lg-4 mb-3 pb-1 marketplace--marketplace-list-item desktop">
                   <div className="card">
                     <a data-property="learn-more-image-link" href="/addons/app/hostgator_vpshosting">
@@ -35,7 +35,7 @@ class MarketplacePage extends Component {
                         <img src="//storage.googleapis.com/wzdev/VPS-Hosting.png" alt="img" />
                       </div>
                     </a>
-                    
+
                     <div className="card-block">
                       <h5 className="marketplace-name">VPS Hosting</h5>
                       <div className="max-lines marketplace-description">Power At The Right Price With VPS</div>
@@ -44,14 +44,8 @@ class MarketplacePage extends Component {
                     <div className="card-footer extra-padding">
                       <div>
                         <span>
-                          <a data-property="select-plan-link" className="float-left" href="/checkout/group/HOSTGATOR_VPSHOSTING">
-                            <button className="btn btn-default" data-property="select-addon-button" type="button">
-                              <div>
-                                <span>
-                                  <span>Buy Now</span>
-                                </span>
-                              </div>
-                            </button>
+                          <a className="btn btn-default" href="/checkout/group/HOSTGATOR_VPSHOSTING">
+                            Buy Now
                           </a>
                         </span>
                       </div>
@@ -67,7 +61,7 @@ class MarketplacePage extends Component {
                           <img src="//storage.googleapis.com/wzdev/VPS-Hosting.png" alt="img" />
                         </div>
                       </a>
-                      
+
                       <div className="card-block">
                         <h5 className="marketplace-name">VPS Hosting</h5>
                         <div className="max-lines marketplace-description">Power At The Right Price With VPS</div>
@@ -76,14 +70,8 @@ class MarketplacePage extends Component {
                       <div className="card-footer extra-padding">
                         <div>
                           <span>
-                            <a data-property="select-plan-link" className="float-left" href="/checkout/group/HOSTGATOR_VPSHOSTING">
-                              <button className="btn btn-default" data-property="select-addon-button" type="button">
-                                <div>
-                                  <span>
-                                    <span>Buy Now</span>
-                                  </span>
-                                </div>
-                              </button>
+                            <a className="btn btn-default" href="/checkout/group/HOSTGATOR_VPSHOSTING">
+                              Buy Now
                             </a>
                           </span>
                         </div>
@@ -99,7 +87,7 @@ class MarketplacePage extends Component {
                           <img src="//storage.googleapis.com/wzdev/VPS-Hosting.png" alt="img" />
                         </div>
                       </a>
-                      
+
                       <div className="card-block">
                         <h5 className="marketplace-name">VPS Hosting</h5>
                         <div className="max-lines marketplace-description">Power At The Right Price With VPS</div>
@@ -108,22 +96,15 @@ class MarketplacePage extends Component {
                       <div className="card-footer extra-padding">
                         <div>
                           <span>
-                            <a data-property="select-plan-link" className="float-left" href="/checkout/group/HOSTGATOR_VPSHOSTING">
-                              <button className="btn btn-default" data-property="select-addon-button" type="button">
-                                <div>
-                                  <span>
-                                    <span>Buy Now</span>
-                                  </span>
-                                </div>
-                              </button>
+                            <a className="btn btn-default" href="/checkout/group/HOSTGATOR_VPSHOSTING">
+                              Buy Now
                             </a>
                           </span>
                         </div>
                       </div>
                     </div>
                   </div>
-
-
+                  
                   <div className="col-xs-12 col-sm-4 col-md-4 col-lg-4 mb-3 pb-1 marketplace--marketplace-list-item desktop">
                     <div className="card">
                       <a data-property="learn-more-image-link" href="/addons/app/hostgator_vpshosting">
@@ -131,7 +112,7 @@ class MarketplacePage extends Component {
                           <img src="//storage.googleapis.com/wzdev/VPS-Hosting.png" alt="img" />
                         </div>
                       </a>
-                      
+
                       <div className="card-block">
                         <h5 className="marketplace-name">VPS Hosting</h5>
                         <div className="max-lines marketplace-description">Power At The Right Price With VPS</div>
@@ -140,14 +121,8 @@ class MarketplacePage extends Component {
                       <div className="card-footer extra-padding">
                         <div>
                           <span>
-                            <a data-property="select-plan-link" className="float-left" href="/checkout/group/HOSTGATOR_VPSHOSTING">
-                              <button className="btn btn-default" data-property="select-addon-button" type="button">
-                                <div>
-                                  <span>
-                                    <span>Buy Now</span>
-                                  </span>
-                                </div>
-                              </button>
+                            <a className="btn btn-default" href="/checkout/group/HOSTGATOR_VPSHOSTING">
+                              Buy Now
                             </a>
                           </span>
                         </div>
@@ -162,7 +137,7 @@ class MarketplacePage extends Component {
                           <img src="//storage.googleapis.com/wzdev/VPS-Hosting.png" alt="img" />
                         </div>
                       </a>
-                      
+
                       <div className="card-block">
                         <h5 className="marketplace-name">VPS Hosting</h5>
                         <div className="max-lines marketplace-description">Power At The Right Price With VPS</div>
@@ -171,14 +146,8 @@ class MarketplacePage extends Component {
                       <div className="card-footer extra-padding">
                         <div>
                           <span>
-                            <a data-property="select-plan-link" className="float-left" href="/checkout/group/HOSTGATOR_VPSHOSTING">
-                              <button className="btn btn-default" data-property="select-addon-button" type="button">
-                                <div>
-                                  <span>
-                                    <span>Buy Now</span>
-                                  </span>
-                                </div>
-                              </button>
+                            <a className="btn btn-default" href="/checkout/group/HOSTGATOR_VPSHOSTING">
+                              Buy Now
                             </a>
                           </span>
                         </div>
@@ -193,7 +162,7 @@ class MarketplacePage extends Component {
                           <img src="//storage.googleapis.com/wzdev/VPS-Hosting.png" alt="img" />
                         </div>
                       </a>
-                      
+
                       <div className="card-block">
                         <h5 className="marketplace-name">VPS Hosting</h5>
                         <div className="max-lines marketplace-description">Power At The Right Price With VPS</div>
@@ -202,14 +171,8 @@ class MarketplacePage extends Component {
                       <div className="card-footer extra-padding">
                         <div>
                           <span>
-                            <a data-property="select-plan-link" className="float-left" href="/checkout/group/HOSTGATOR_VPSHOSTING">
-                              <button className="btn btn-default" data-property="select-addon-button" type="button">
-                                <div>
-                                  <span>
-                                    <span>Buy Now</span>
-                                  </span>
-                                </div>
-                              </button>
+                            <a className="btn btn-default" href="/checkout/group/HOSTGATOR_VPSHOSTING">
+                              Buy Now
                             </a>
                           </span>
                         </div>
