@@ -25,7 +25,7 @@ export default class Sidebar extends Component {
               <li>
                 <Link to="/sites" className="active">
                   <i className="glyphicon">
-                    <img src="/images/icon-wordpress-logo.svg" alt="WP" className="wordpress-logo" />
+                    <Icon iconName="home" />
                   </i>
                   <span className="fa fa-anchor solo">My Sites</span>
                 </Link>
