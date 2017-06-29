@@ -13,21 +13,34 @@ export default class Sidebar extends Component {
       <div className={baseStyles.sidebar + " " + theme.sidebar}>
         <nav id="spy">
           <ul className="nav nav-pills nav-stacked primary-nav">
+            {BRAND !== 'websiteBuilder' &&
             <li>
               <Link to="/" className="active">
                 <Icon iconName="home" />
                 <span className="fa fa-home solo">Home</span>
               </Link>
             </li>
-            <li>
-              <Link to="/sites">
-                <i className="glyphicon">
-                  {BRAND === 'websiteBuilder' && <img src="/images/icon-wordpress-logo.svg" alt="WP" className="wordpress-logo" />}
-                  {BRAND !== 'websiteBuilder' && <img src="/images/icon-wordpress-logo-b.svg" alt="WP" className="wordpress-logo" />}
-                </i>
-                <span className="fa fa-anchor solo">My Sites</span>
-              </Link>
-            </li>
+            }
+            {BRAND === 'websiteBuilder' &&
+              <li>
+                <Link to="/sites" className="active">
+                  <i className="glyphicon">
+                    <img src="/images/icon-wordpress-logo.svg" alt="WP" className="wordpress-logo" />
+                  </i>
+                  <span className="fa fa-anchor solo">My Sites</span>
+                </Link>
+              </li>
+            }
+            {BRAND !== 'websiteBuilder' &&
+              <li>
+                <Link to="/sites">
+                  <i className="glyphicon">
+                    <img src="/images/icon-wordpress-logo-b.svg" alt="WP" className="wordpress-logo" />
+                  </i>
+                  <span className="fa fa-anchor solo">My Sites</span>
+                </Link>
+              </li>
+            }
             <li>
               <Link to="/marketplace">
                 <Icon iconName="tag" />

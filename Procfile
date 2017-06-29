@@ -1,1 +1,1 @@
-web: yarn run start-websiteBuilder
+web: yarn run start
