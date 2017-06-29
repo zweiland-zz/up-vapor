@@ -1,1 +1,1 @@
-web: yarn run start-ipage
+web: yarn run start-websiteBuilder
