@@ -1,5 +1,12 @@
 /* App Wrapper hostgator.css */
 
 .appWrap {
-  
+  background-image:
+  url(https://cphostgatoruscentralweb.blob.core.windows.net/d-cp-hostgator-1497621785313/36c29a6bcc234c8fabef851629a09f0a.png),
+  url(https://cphostgatoruscentralweb.blob.core.windows.net/d-cp-hostgator-1497621785313/dedda6992f456fb74d29f3567c4eb3d2.png),
+  url(https://cphostgatoruscentralweb.blob.core.windows.net/d-cp-hostgator-1497621785313/62116b728966e935ad82db7a6c650b83.jpg);
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-position: 95% bottom, left bottom, left top;
+  background-size: 150px, contain, cover;
+  height: 100%;
 }

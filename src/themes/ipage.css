@@ -7,18 +7,28 @@ body, html {
 
 /* Links */
 a {
-  color: #0288d1;
+  color: #0b75e0;
 }
 .link-dark {
-  color: #212121;
+  color: #333;
 }
 
 
 /* Buttons */
-.btn-default {
+.btn, .btn-default {
+  color: #007ADB;
+  background-color: transparent;
+  border-color: #007ADB;
+  border-radius: 0;
+  border-width: 2px;
+}
+.btn-default:hover,
+.btn-default:active,
+.btn-default:focus,
+.btn-default:active:focus {
   color: white;
-  background-color: #26ce61;
-  border-color: #26ce61;
+  background-color: #007ADB;
+  border-color: #007ADB;
 }
 
 /* Typography */
@@ -49,12 +59,22 @@ a {
   background-color: transparent;
   border-bottom-color: #26ce61;
 }
+.domain-name .panel-heading {
+  padding: 0;
+}
 
 
 /* Typography */
 .fsl {
   font-size: 20px;
   font-weight: 600;
+}
+
+/* Grid */
+@media (min-width: 1200px) {
+  .container {
+      width: 100%;
+  }
 }
 
 
@@ -78,7 +98,7 @@ a {
 .domain-options .panel-footer {
   background-color: #fff;
   font-size: 18px;
-  line-height: 159px;
+  line-height: 149px;
 }
 .domain-options .panel-heading a,
 .domain-options .panel-footer a {

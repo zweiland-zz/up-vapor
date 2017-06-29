@@ -22,7 +22,8 @@ export default class Sidebar extends Component {
             <li>
               <Link to="/sites">
                 <i className="glyphicon">
-                  <img src="/images/wordpress-logo.png" alt="WP" className="wordpress-logo" />
+                  {BRAND === 'websiteBuilder' && <img src="/images/icon-wordpress-logo.svg" alt="WP" className="wordpress-logo" />}
+                  {BRAND !== 'websiteBuilder' && <img src="/images/icon-wordpress-logo-b.svg" alt="WP" className="wordpress-logo" />}
                 </i>
                 <span className="fa fa-anchor solo">My Sites</span>
               </Link>

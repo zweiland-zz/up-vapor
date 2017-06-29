@@ -22,6 +22,13 @@ export default class Header extends Component {
               <Logo />
             </div>
           </div>
+          {(BRAND === 'websiteBuilder') &&
+          <div className={baseStyles.navbarBreadcrumb + " " + theme.navbarBreadcrumb}>
+            <span>
+              <span>Site details</span>
+            </span>
+          </div>
+          }
           <UtilityNav />
         </div>
       </nav>

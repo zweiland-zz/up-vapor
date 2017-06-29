@@ -1,6 +1,6 @@
 /* menuToggle base.css */
 
-.menuToggle {
+.menuToggle, .menuToggle:hover {
   color: white;
   line-height: 62px;
   padding-left: 1pc;

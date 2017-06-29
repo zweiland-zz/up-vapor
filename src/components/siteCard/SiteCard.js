@@ -39,7 +39,7 @@ class SiteCard extends Component {
             </div>
             <div className="panel-body">
               <h3>
-                <a href="/" className="link-dark">
+                <a href="/sites" className="link-dark">
                   {this.props.siteDomain}
                 </a>
               </h3>
@@ -62,7 +62,7 @@ class SiteCard extends Component {
               <p>{this.props.domainInfo}</p>
             </div>
             <div className="panel-footer">
-              <a className="manage bold fsxs uppercase" href="./#/">Manage</a>
+              <a className="manage bold fsxs uppercase" href="/sites">Manage</a>
             </div>
           </div>
         </div>

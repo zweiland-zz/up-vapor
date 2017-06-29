@@ -11,13 +11,25 @@ export default class UtilityNav extends Component {
     return (
       <div className={"collapse navbar-collapse " + baseStyles.utilityWrap + " " + theme.utilityWrap}>
         <ul className={baseStyles.utilityNav + " " + theme.utilityNav}>
-          {BRAND === 'bluehost' && <li><a href="/"><Icon iconName="search" /></a></li> }
+          {BRAND === 'bluehost' && <li><Link to="/"><Icon iconName="search" /></Link></li> }
+          {BRAND === 'websiteBuilder' &&
           <li>
+            <Link to="/">
+              <Icon iconName="th" />
+            </Link>
+          </li>
+          }
+          <li className={baseStyles.navNotifications + " " + theme.navNotifications}>
             <Link to="/">
               <Icon iconName="bell" />
             </Link>
+            {(BRAND === 'websiteBuilder') &&
+            <div className={baseStyles.navBadge + " " + theme.navBadge}>
+              <span>2</span>
+            </div>
+            }
           </li>
-          {BRAND !== 'bluehost' &&
+          {(BRAND === 'base' || BRAND === 'ipage') &&
           <li>
             <Link to="/">
               <Icon iconName="question-sign" />
@@ -33,10 +45,10 @@ export default class UtilityNav extends Component {
           }
           <li className={baseStyles.utilityProfile + " " + theme.utilityProfile}>
             <Link to="/account">
-              {(BRAND === 'base' || BRAND === 'bluehost') && <Icon iconName="user" /> }
+              {(BRAND === 'base' || BRAND === 'bluehost' || BRAND === 'websiteBuilder') && <Icon iconName="user" /> }
               {BRAND === 'ipage' && <img className="avatar avatar-s" src="/images/profile.jpeg" alt="profile" /> }
               {(BRAND === 'base' || BRAND === 'ipage') && <span>My Account</span> }
-              <Icon iconName="triangle-bottom" />
+              {(BRAND === 'base' || BRAND === 'ipage') && <Icon iconName="triangle-bottom" />}
             </Link>
           </li>
         </ul>

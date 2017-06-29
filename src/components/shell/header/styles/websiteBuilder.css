@@ -19,3 +19,15 @@
   transform: translate3d(0,-100%,0);
   */
 }
+
+.navbarBreadcrumb {
+  display: block;
+  float: left;
+  padding-left: 24px;
+  padding-top: 2px;
+  line-height: 62px;
+}
+.navbarBreadcrumb span {
+  font-size: 20px;
+  line-height: 44px;
+}

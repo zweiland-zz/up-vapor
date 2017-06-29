@@ -16,6 +16,14 @@
   z-index: 1030;
 }
 
-.header a:hover {
-  text-decoration: none;
+.header a:hover { text-decoration: none; }
+
+.navbarBreadcrumb {
+  display: block;
+  float: left;
+  padding-left: 24px;
+  line-height: 48px;
+}
+.navbarBreadcrumb span {
+  font-size: 18px;
 }

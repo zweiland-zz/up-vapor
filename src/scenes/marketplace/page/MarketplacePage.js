@@ -35,7 +35,7 @@ class MarketplacePage extends Component {
                         <img src="//storage.googleapis.com/wzdev/VPS-Hosting.png" alt="img" />
                       </div>
                     </a>
-                    <hr />
+                    
                     <div className="card-block">
                       <h5 className="marketplace-name">VPS Hosting</h5>
                       <div className="max-lines marketplace-description">Power At The Right Price With VPS</div>
@@ -67,7 +67,7 @@ class MarketplacePage extends Component {
                           <img src="//storage.googleapis.com/wzdev/VPS-Hosting.png" alt="img" />
                         </div>
                       </a>
-                      <hr />
+                      
                       <div className="card-block">
                         <h5 className="marketplace-name">VPS Hosting</h5>
                         <div className="max-lines marketplace-description">Power At The Right Price With VPS</div>
@@ -99,7 +99,7 @@ class MarketplacePage extends Component {
                           <img src="//storage.googleapis.com/wzdev/VPS-Hosting.png" alt="img" />
                         </div>
                       </a>
-                      <hr />
+                      
                       <div className="card-block">
                         <h5 className="marketplace-name">VPS Hosting</h5>
                         <div className="max-lines marketplace-description">Power At The Right Price With VPS</div>
@@ -131,7 +131,7 @@ class MarketplacePage extends Component {
                           <img src="//storage.googleapis.com/wzdev/VPS-Hosting.png" alt="img" />
                         </div>
                       </a>
-                      <hr />
+                      
                       <div className="card-block">
                         <h5 className="marketplace-name">VPS Hosting</h5>
                         <div className="max-lines marketplace-description">Power At The Right Price With VPS</div>
@@ -162,7 +162,7 @@ class MarketplacePage extends Component {
                           <img src="//storage.googleapis.com/wzdev/VPS-Hosting.png" alt="img" />
                         </div>
                       </a>
-                      <hr />
+                      
                       <div className="card-block">
                         <h5 className="marketplace-name">VPS Hosting</h5>
                         <div className="max-lines marketplace-description">Power At The Right Price With VPS</div>
@@ -193,7 +193,7 @@ class MarketplacePage extends Component {
                           <img src="//storage.googleapis.com/wzdev/VPS-Hosting.png" alt="img" />
                         </div>
                       </a>
-                      <hr />
+                      
                       <div className="card-block">
                         <h5 className="marketplace-name">VPS Hosting</h5>
                         <div className="max-lines marketplace-description">Power At The Right Price With VPS</div>

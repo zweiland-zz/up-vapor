@@ -9,4 +9,6 @@
   font-size: 24px;
 }
 
-.utilityNav>li:last-child a i:last-child {display:none;}
+.utilityNav>li:last-child a i:last-child {
+font-size: 24px;
+}

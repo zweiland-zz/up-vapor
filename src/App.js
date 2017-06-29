@@ -29,7 +29,7 @@ class App extends Component {
                 <div className="row">
                   {(BRAND === 'base' || BRAND === 'ipage') && <Filters />}
                 </div>
-                {BRAND === 'base' &&
+                {(BRAND === 'base') &&
                 <div className="row">
                   <div className="col-md-6">
                     <Panel

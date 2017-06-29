@@ -22,7 +22,7 @@
   line-height: 20px;
 }
 .utilityNav>li>a .glyphicon-triangle-bottom {
-  background: green;
+  background: white;
 }
 
 .utilityNav>li>a {
@@ -33,4 +33,31 @@
 }
 .utilityProfile .glyphicon {
   font-size: 0;
+}
+
+.navNotifications {
+  position: relative;
+}
+.navBadge {
+  position: absolute;
+  display: inline-block;
+  padding: 0;
+  top: 0; right: 0;
+}
+.navBadge span {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0px;
+  right: 6px;
+  font-weight: 500;
+  font-size: 12px;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background-color: rgb(255, 212, 61);
+  color: rgb(255, 255, 255);
 }

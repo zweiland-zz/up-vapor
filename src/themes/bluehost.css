@@ -14,10 +14,24 @@ a {
 
 
 /* Buttons */
-.btn-default {
+.btn, .btn-default {
+  color: #3575d3;
+  background-color: transparent;
+  border-color: #3575d3;
+}
+.btn-default:hover,
+.btn-default:active,
+.btn-default:focus,
+.btn-default:active:focus {
   color: white;
   background-color: #3575d3;
   border-color: #3575d3;
+}
+.btn-primary, .btn-primary:hover {
+  padding: 10px 20px;
+  background-color: #3575d3;
+  border-color: #3575d3;
+  color: white;
 }
 
 
@@ -76,7 +90,7 @@ a {
     height: 298px;
   }
 }
-.panel, .card {
+.panel, .card, .floating-row {
   margin-bottom: 20px;
   background-color: #fff;
   border: 1px solid transparent;
@@ -107,11 +121,11 @@ a {
 }
 
 .video-well {
-    background-image: url(/images/video-preview.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 125px;
+  background-image: url(/images/video-preview.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 125px;
 }
 .well-lg {
     padding: 24px;
@@ -176,9 +190,4 @@ a {
 input {
     font-size: 16px;
     padding: 20px 12px;
-}
-.btn-primary, .btn-primary:hover {
-  padding: 10px 20px;
-  background-color: #3575d3;
-  border-color: #3575d3;
 }

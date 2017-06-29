@@ -22,6 +22,26 @@
   */
 }
 
+.sidebar .primary-nav {
+  padding: 6px 1pc 0;
+}
+
 .sidebar>nav>.nav.primary-nav>li>a {
   color: #fff;
+}
+.sidebar a {
+  padding: 15px;
+  display: block;
+}
+
+
+.sidebar a {
+  color: #fff;
+  cursor: pointer;
+  padding: 2px 0;
+  border-radius: 3px;
+}
+.nav-link {
+  display: block;
+  padding: .5rem 1rem;
 }

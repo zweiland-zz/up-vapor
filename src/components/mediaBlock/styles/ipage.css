@@ -1,0 +1,10 @@
+/* media block ipage.css */
+
+.siteDetails__storeIcon {
+  background-color: rgba(0, 122, 219,.16);
+}
+
+.siteDetails__storeIcon svg {
+  color: rgba(0, 122, 219, 1);
+  fill: rgb(0, 122, 219);
+}
