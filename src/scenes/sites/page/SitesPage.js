@@ -18,10 +18,8 @@ class SitesPage extends Component {
           <Header />
           <Sidebar />
           <MainContent>
-
             <div className="my-sites-holder">
               <div className="container site-details">
-
                 <div className="row mx0 mt5 mb5 floating-row">
                   <div className="col-md-4 col-sm-12">
                     <div className="imageLoader loaded site-details--thumbnail desktop">

@@ -43,6 +43,9 @@ class MediaBlock extends Component {
                 <button type="button" className="btn btn-default">
                   {this.props.btnText}
                 </button>
+                <button type="button" className="btn btn-default ml2">
+                  Button
+                </button>
               </div>
             </div>
           </div>

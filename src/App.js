@@ -61,7 +61,6 @@ class App extends Component {
                   </div>
                 </div>
                 }
-                {(BRAND === 'ipage') &&
                 <div className="row">
                   <div className="col-md-4">
                     <div className="panel panel-default domain-options align-center">
@@ -76,7 +75,6 @@ class App extends Component {
                   <SiteCard siteDomain="wholefoodsmarket.com" siteImgUrl="/images/wholefoods-site-thumb.png" />
                   <SiteCard siteDomain="mcdonalds.com" siteImgUrl="/images/mcdonalds-site-thumb.png" domainInfo="expires in 2 years - Jan 23, 2019" />
                 </div>
-                }
                 {BRAND === 'bluehost' &&
                 <div>
                   <div className="row">
